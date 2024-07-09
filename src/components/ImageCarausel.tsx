@@ -26,7 +26,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ sprites }) => {
           <img
             src={otherImageUrl}
             alt="dream_world front_default"
-            className="w-40 lg:w-auto md:w-auto rounded-lg border-gray-200 transition-shadow duration-300 ease-in-out "
+            className="w-40 lg:w-64 md:w-64 rounded-lg border-gray-200 transition-shadow duration-300 ease-in-out "
           />
         </div>
       )}
