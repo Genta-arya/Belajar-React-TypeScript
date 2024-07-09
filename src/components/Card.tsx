@@ -14,7 +14,7 @@ const Card = (props: PokemonCard) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 md:gap-6 lg:gap-6 gap-3">
+    <div className="grid grid-cols-2 lg:px-20 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 md:gap-6 lg:gap-6 gap-3">
       {pokemon.map((poke, index) => (
         <motion.div
           key={poke.id}

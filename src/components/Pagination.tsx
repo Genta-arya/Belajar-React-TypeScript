@@ -34,7 +34,7 @@ const Pagination: React.FC<PaginationProps> = ({
   }, [timeoutId]);
 
   return (
-    <div className="flex items-center justify-between px-4 border-t p-4 mt-16">
+    <div className="flex items-center  lg:px-20 justify-between px-4 border-t p-4 mt-16">
       {/* Previous Button */}
       <button
         className={`bg-purple-500 text-white  py-1 px-3 rounded-full shadow-md transition-transform duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500 ${isFirstPage || !canNext ? "opacity-50 cursor-not-allowed" : "hover:bg-purple-700"}`}

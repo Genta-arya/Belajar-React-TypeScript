@@ -6,9 +6,11 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <React.Fragment>
-      <Navbar />
-      <PokemonList />
-      <Footer />
+    
+        <Navbar />
+        <PokemonList />
+        <Footer />
+   
     </React.Fragment>
   );
 };

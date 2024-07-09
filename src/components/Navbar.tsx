@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-white p-4 border-b">
-      <div className="container mx-auto flex md:flex-row lg:flex-row flex-col gap-2  justify-between items-center">
+      <div className="container lg:px-24 mx-auto flex md:flex-row lg:flex-row flex-col gap-2  justify-between items-center">
         <h1 className="text-3xl font-cartoon text-purple-800">
           Koleksi Pokemon
         </h1>
